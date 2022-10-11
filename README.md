@@ -95,31 +95,11 @@ _"-u gør GitHub repo til dit default repo"
 
 ### .gitignore
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Nedenfor er linket til .gitignore filen. De to VIGTIGSTE ting i den fil er at informationen til FTP connection og Node Modules bliver ignoreret.
+</br>
+Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til projektet inden du laver repo opsætningen.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+[Link til .gitignore](https://github.com/HostedShop/.github/blob/main/.gitignore)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
