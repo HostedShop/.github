@@ -26,7 +26,7 @@
 
 Der er to måder at sætte et repo op:
 
-#### Nyt projekt
+### Nyt projekt
 
 he
 
