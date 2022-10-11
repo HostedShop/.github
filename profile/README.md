@@ -39,6 +39,7 @@ Det her er når du opstarter en ny kunde og ikke har nogen filer på din pc endn
 ### Eksisterende projekt
 
 Denne process er hvis du allerede har kundens projekt på din pc og vil have det sat op til et repository.
+<br>
 Da du ikke kan trække et eksisterende repository ind over et eksisterende projekt, skal du lave det eksisterende projekt til repositoriet.
 Det kan enten gøres med terminalen eller med GitHub desktop og processen er den samme, blot med forskellige fremgangprocesser.
 
