@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/HostedShop">
-    <img src="images/5BI1fI4.png" alt="Logo" width="100%" height="80">
+    <img src="images/5BI1fI4.png" alt="Logo" width="auto" height="80">
   </a>
 
   <h3 align="center">Hostedshop</h3>
