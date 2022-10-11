@@ -52,10 +52,8 @@ Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eks
 <br>
 **Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.**
 
-<br>
-<i>Jeg anbefaler at du tilføjer din .gitignore fil inden at du begynder opsættelsen af dit repo, så du er sikker på at filer ikke bliver cached på dit repository, da det er træls at skulle fjerne filer som allerede er blevet pushet.
-<br>
-Længere nede kan du hente den gitignore fil som skal bruges.</i>
+<i>Længere nede kan du hente den gitignore fil som skal bruges.
+Jeg anbefaler at du tilføjer din .gitignore fil inden at du begynder opsættelsen af dit repo, så du er sikker på at filer ikke bliver cached på dit repository, da det er træls at skulle fjerne filer som allerede er blevet pushet.</i>
 
 <!-- 1/2 -->
 
