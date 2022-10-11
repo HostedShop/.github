@@ -28,19 +28,19 @@ Formålet med at lave git versioning på vores arbejde er for at gøre det nemme
 
 ### Eksempler
 
-<b>1. Vi kommer på job mandag morgen og kan ikke huske hvor vi er i arbejdsprocessen</b>
+1. Vi kommer på job mandag morgen og kan ikke huske hvor vi er i arbejdsprocessen
 
 - Her vil git gøre det nemt at huske hvad du er i gang med, gennem dine egne commits.
 
 <br>
 
-**2. Vi skal lave en større ændring på eksempelvis en produkt-side som vil tage længere tid**
+2. Vi skal lave en større ændring på eksempelvis en produkt-side som vil tage længere tid
 
 - Her vil git være din bedste ven, da du kan lave en branch _ie: ProductPageDesign_ & her har du nu lov til at tage chancer og her må du gerne fejle, da du har en backup i form af master branchen. Det vil øge effektiviteten da du ikke behøver at være så forsigtig når du sletter og tilføjer kode.
 
 <br>
 
-**3. Vi skal lave mange ændringer på en webshop**
+3. Vi skal lave mange ændringer på en webshop
 
 - Her er git god til at holde det samlede overblik, da du kan lave en branch for hvert område som du arbejde på og derved have dit eget interne projekt-flow, hvor du igennem dine commits kan holde dit eget overblik. Hvis du eksempelvis har 8 branches, og du ikke har arbejdet på en af disse branches i lang tid, kan du hurtigt kigge din commit history igennem og se hvad du har lavet af arbejde.
 
