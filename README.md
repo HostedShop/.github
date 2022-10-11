@@ -151,6 +151,6 @@ De to VIGTIGSTE ting i denne fil er at informationen til FTP connection og Node 
 
 Kontakt mig hvis der er spørgsmål.
 
-Simom Laursen - slr@onlineplus.dk
+Simon Laursen - slr@onlineplus.dk
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
