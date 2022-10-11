@@ -50,11 +50,13 @@ Formålet med at lave git versioning på vores arbejde er for at gøre det nemme
 
 Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eksisterende projekt. Processen er lidt forskellig mellem de to.
 
+<p align="center">
 _Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
 <br>
 Jeg anbefaler at du tilføjer din .gitignore fil inden at du begynder opsættelsen af dit repo, så du er sikret at følsom data ikke bliver tilføjet til dit repository.
 <br>
 Længere nede kan du hente den gitignore fil som skal bruges._
+</p>
 
 <!-- 1/2 -->
 
