@@ -136,7 +136,7 @@ _"-u gør GitHub repo til dit default repo"
 
 # .gitignore
 
-[Link til .gitignore](https://github.com/HostedShop/.githubblob/main/.gitignore)
+[Link til .gitignore](https://github.com/HostedShop/.github/blob/main/.gitignore)
 
 De to VIGTIGSTE ting i denne fil er at informationen til FTP connection og Node Modules bliver ignoreret.
 <br>
