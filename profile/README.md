@@ -27,9 +27,9 @@
 Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eksisterende projekt. Processen er lidt forskellig mellem de to.
 
 _Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
-</br>
+<br>
 Jeg anbefaler at du tilføjer din .gitignore fil inden at du begynder opsættelsen af dit repo, så du er sikret at følsom data ikke bliver tilføjet til dit repository.
-</br>
+<br>
 Længere nede kan du hente den gitignore fil som skal bruges._
 
 ### Nyt projekt
@@ -52,7 +52,14 @@ Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar t
   git init
   ```
 
-Du kan nu gå ind i GitHub Desktop og trykke på "Add Repository" -> "Add Existing Repository" -> vælg path til projektet -> "Publish Repository" -> Sæt HostedShop som Organization -> "Publish Repository"
+Du kan nu gå ind i GitHub Desktop og trykke...
+
+1. "Add Repository"
+2. "Add Existing Repository"
+3. Vælg path til projektet
+4. "Publish Repository"
+5. Sæt HostedShop som Organization
+6. "Publish Repository"
 
 #### Terminal
 
@@ -91,15 +98,15 @@ Her fra er processen den samme som ovenfor, bare i terminalen.
   ```
 
 _"-u gør GitHub repo til dit default repo"
-</br>
+<br>
 "-f overskriver allerede eksisterende filer i dit repo"_
 
 # .gitignore
 
-[Link til .gitignore](https://github.com/HostedShop/.github/blob/main/.gitignore)
+[Link til .gitignore](https://github.com/HostedShop/.githubblob/main/.gitignore)
 
 De to VIGTIGSTE ting i den fil er at informationen til FTP connection og Node Modules bliver ignoreret.
-</br>
+<br>
 Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til projektet inden du laver repo opsætningen.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
