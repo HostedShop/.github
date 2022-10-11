@@ -107,6 +107,7 @@ _"-u gør GitHub repo til dit default repo"
 
 De to VIGTIGSTE ting i denne fil er at informationen til FTP connection og Node Modules bliver ignoreret.
 <br>
+<br>
 **_Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til projektet inden du laver repo opsætningen._**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
