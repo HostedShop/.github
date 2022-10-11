@@ -55,6 +55,43 @@ Længere nede kan du hente den gitignore fil som skal bruges.</i>
 
 #### Terminal
 
+Denne metode kræver at du laver et tomt repository på GitHub.com, som vi så fletter sammen med din lokale projekt mappe.
+Efter du har lavet et tomt repository, går du ind i projektet's mappe & åbner terminalen & laver en init, som vil gøre mappen klar til at blive sat op til dit GitHub repository.
+
+Her fra er processen den samme som ovenfor, bare i terminalen.
+
+- Projektets terminal
+
+  ```sh
+  git init
+  ```
+
+- Tilføj filerne
+
+  ```sh
+  git add .
+  ```
+
+- Commit projektets filer
+
+  ```sh
+  git commit -m "Add existing project files to Git"
+  ```
+
+- Synkroniser dit projekt med GitHub repo
+
+  ```sh
+  git remote add origin https://github.com/Hostedshop/projekt-navn.git
+  ```
+
+- Push dit projekt til dit GitHub repo "-u gør GitHub repo til dit default repo" "-f overskriver allerede eksisterende filer i dit repo"
+  ```sh
+  git push -u -f origin master
+  ```
+
+<i>Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
+Længere nede kan du hente den gitignore fil som skal bruges.</i>
+
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
