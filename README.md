@@ -20,19 +20,34 @@
   </p>
 </div>
 
-<!-- GETTING STARTED -->
+<!-- USAGE -->
 
 ## Usage
 
-Der er to måder at sætte et repo op:
+Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eksisterende projekt. Processen er lidt forskellig mellem de to.
 
 ### Nyt projekt
 
-he
+Det her er når du opstarter en ny kunde og ikke har nogen filer på din pc endnu. Her laver du blot et nyt repository og cloner det ned på din pc, hvorefter du i denne mappe laver den almindelige FTP opsætning med SFTP.
+Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
+Længere nede kan du hente den gitignore fil som skal bruges.
 
-#### Eksisterende projekt
+### Eksisterende projekt
 
-her
+Denne process er hvis du allerede har kundens projekt på din pc og vil have det sat op til et repository.
+Da du ikke kan trække et eksisterende repository ind over et eksisterende projekt, skal du lave det eksisterende projekt til repositoriet.
+Det kan enten gøres med terminalen eller med GitHub desktop og processen er den samme, blot med forskellige fremgangprocesser.
+
+##### Github Desktop
+
+Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar til at blive sat op til GitHub.
+
+- Projektets terminal
+  ```sh
+  git init
+  ```
+
+##### Terminal
 
 ### Prerequisites
 
