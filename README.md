@@ -29,8 +29,9 @@ Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eks
 ### Nyt projekt
 
 Det her er når du opstarter en ny kunde og ikke har nogen filer på din pc endnu. Her laver du blot et nyt repository og cloner det ned på din pc, hvorefter du i denne mappe laver den almindelige FTP opsætning med SFTP.
-Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
-Længere nede kan du hente den gitignore fil som skal bruges.
+
+<i>Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
+Længere nede kan du hente den gitignore fil som skal bruges.</i>
 
 ### Eksisterende projekt
 
@@ -38,7 +39,7 @@ Denne process er hvis du allerede har kundens projekt på din pc og vil have det
 Da du ikke kan trække et eksisterende repository ind over et eksisterende projekt, skal du lave det eksisterende projekt til repositoriet.
 Det kan enten gøres med terminalen eller med GitHub desktop og processen er den samme, blot med forskellige fremgangprocesser.
 
-##### Github Desktop
+#### Github Desktop
 
 Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar til at blive sat op til GitHub.
 
@@ -47,7 +48,12 @@ Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar t
   git init
   ```
 
-##### Terminal
+Du kan nu gå ind i GitHub Desktop og trykke på "Add Repository" -> "Add Existing Repository" -> vælg path til projektet -> "Publish Repository" -> Sæt HostedShop som Organization -> "Publish Repository"
+
+<i>Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
+Længere nede kan du hente den gitignore fil som skal bruges.</i>
+
+#### Terminal
 
 ### Prerequisites
 
