@@ -27,7 +27,9 @@
 Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eksisterende projekt. Processen er lidt forskellig mellem de to.
 
 _Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
+</br>
 Jeg anbefaler at du tilføjer din .gitignore fil inden at du begynder opsættelsen af dit repo, så du er sikret at følsom data ikke bliver tilføjet til dit repository.
+</br>
 Længere nede kan du hente den gitignore fil som skal bruges._
 
 ### Nyt projekt
@@ -82,10 +84,14 @@ Her fra er processen den samme som ovenfor, bare i terminalen.
   git remote add origin https://github.com/Hostedshop/projekt-navn.git
   ```
 
-- Push dit projekt til dit GitHub repo "-u gør GitHub repo til dit default repo" "-f overskriver allerede eksisterende filer i dit repo"
+- Push dit projekt til dit GitHub repo
   ```sh
   git push -u -f origin master
   ```
+
+_"-u gør GitHub repo til dit default repo"
+</br>
+"-f overskriver allerede eksisterende filer i dit repo"_
 
 ### .gitignore
 
