@@ -93,7 +93,7 @@ _"-u gør GitHub repo til dit default repo"
 </br>
 "-f overskriver allerede eksisterende filer i dit repo"_
 
-### .gitignore
+# .gitignore
 
 [Link til .gitignore](https://github.com/HostedShop/.github/blob/main/.gitignore)
 
@@ -105,7 +105,9 @@ Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til proj
 
 <!-- CONTACT -->
 
-## Contact
+# Contact
+
+Kontakt mig hvis der er spørgsmål.
 
 Simom Laursen - slr@onlineplus.dk
 
