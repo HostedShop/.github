@@ -26,7 +26,7 @@
 
 Formålet med at lave git versioning på vores arbejde er for at gøre det nemmere at holde overblikket i vores arbejde og minimere fejl.
 
-###Eksempler
+### Eksempler
 
 1. Vi kommer på job mandag morgen og kan ikke huske hvor vi er i arbejdsprocessen
 
