@@ -26,12 +26,13 @@
 
 Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eksisterende projekt. Processen er lidt forskellig mellem de to.
 
+_Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
+Jeg anbefaler at du tilføjer din .gitignore fil inden at du begynder opsættelsen af dit repo, så du er sikret at følsom data ikke bliver tilføjet til dit repository.
+Længere nede kan du hente den gitignore fil som skal bruges._
+
 ### Nyt projekt
 
 Det her er når du opstarter en ny kunde og ikke har nogen filer på din pc endnu. Her laver du blot et nyt repository og cloner det ned på din pc, hvorefter du i denne mappe laver den almindelige FTP opsætning med SFTP.
-
-<i>Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
-Længere nede kan du hente den gitignore fil som skal bruges.</i>
 
 ### Eksisterende projekt
 
@@ -49,9 +50,6 @@ Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar t
   ```
 
 Du kan nu gå ind i GitHub Desktop og trykke på "Add Repository" -> "Add Existing Repository" -> vælg path til projektet -> "Publish Repository" -> Sæt HostedShop som Organization -> "Publish Repository"
-
-<i>Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
-Længere nede kan du hente den gitignore fil som skal bruges.</i>
 
 #### Terminal
 
@@ -89,19 +87,7 @@ Her fra er processen den samme som ovenfor, bare i terminalen.
   git push -u -f origin master
   ```
 
-<i>Det er vigtigt at du husker at lave en .gitignore fil her som sørger for at ignorere de personfølsomme data.
-Længere nede kan du hente den gitignore fil som skal bruges.</i>
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
+### .gitignore
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
