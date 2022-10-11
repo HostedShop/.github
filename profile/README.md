@@ -52,7 +52,7 @@ Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar t
   git init
   ```
 
-Du kan nu gå ind i GitHub Desktop og trykke...
+Du kan nu gå ind i GitHub Desktop og trykke:
 
 1. "Add Repository"
 2. "Add Existing Repository"
@@ -105,9 +105,9 @@ _"-u gør GitHub repo til dit default repo"
 
 [Link til .gitignore](https://github.com/HostedShop/.githubblob/main/.gitignore)
 
-De to VIGTIGSTE ting i den fil er at informationen til FTP connection og Node Modules bliver ignoreret.
+De to VIGTIGSTE ting i denne fil er at informationen til FTP connection og Node Modules bliver ignoreret.
 <br>
-Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til projektet inden du laver repo opsætningen.
+**Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til projektet inden du laver repo opsætningen.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
