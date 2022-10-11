@@ -22,7 +22,7 @@
 
 <!-- USAGE -->
 
-## Usage
+# Usage
 
 Der er to måder at sætte et repo op, enten som et nyt projekt eller som et eksisterende projekt. Processen er lidt forskellig mellem de to.
 
