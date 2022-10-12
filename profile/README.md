@@ -44,6 +44,10 @@ Formålet med at lave git versioning på vores arbejde er for at gøre det nemme
 
 - Her er git god til at holde det samlede overblik, da du kan lave en branch for hvert område som du arbejde på og derved have dit eget interne projekt-flow, hvor du igennem dine commits kan holde dit eget overblik. Hvis du eksempelvis har 8 branches, og du ikke har arbejdet på en af disse branches i lang tid, kan du hurtigt kigge din commit history igennem og se hvad du har lavet af arbejde.
 
+4. Du arbejder hjemmefra og vil gerne bruge din egen pc til arbejde.
+
+- Med git kan du clone dit igangværende projekt ned på din personlige pc og oprette en ny FTP fil i projektet. Du kan så arbejde i koden på din personlige pc og bruge din arbejdscomputer til at se ændringerne på den webshop du arbejder i, samt mails, teams & toggl.
+
 <!-- OPSÆTNING -->
 
 # Opsætning
