@@ -1,5 +1,8 @@
 # HostedShop
+.dio
 .vscode
+assets/*/*.css
+assets/*/*.css.map
 
 # Logs
 logs

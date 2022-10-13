@@ -52,11 +52,11 @@ Det kan enten gøres med terminalen eller med GitHub desktop og processen er den
 
 Her går du ind i projektet's mappe & laver en init, som vil gøre mappen klar til at blive sat op til GitHub.
 
-- Projektets terminal
+-   Projektets terminal
 
-  ```sh
-  git init
-  ```
+    ```sh
+    git init
+    ```
 
 Du kan nu gå ind i GitHub Desktop og trykke:
 
@@ -76,34 +76,34 @@ Efter du har lavet et tomt repository, går du ind i projektet's mappe & åbner 
 
 Her fra er processen den samme som ovenfor, bare i terminalen.
 
-- Projektets terminal
+-   Projektets terminal
 
-  ```sh
-  git init
-  ```
+    ```sh
+    git init
+    ```
 
-- Tilføj filerne
+-   Tilføj filerne
 
-  ```sh
-  git add .
-  ```
+    ```sh
+    git add .
+    ```
 
-- Commit projektets filer
+-   Commit projektets filer
 
-  ```sh
-  git commit -m "Add existing project files to Git"
-  ```
+    ```sh
+    git commit -m "Add existing project files to Git"
+    ```
 
-- Synkroniser dit projekt med GitHub repo
+-   Synkroniser dit projekt med GitHub repo
 
-  ```sh
-  git remote add origin https://github.com/Hostedshop/projekt-navn.git
-  ```
+    ```sh
+    git remote add origin https://github.com/Hostedshop/projekt-navn.git
+    ```
 
-- Push dit projekt til dit GitHub repo
-  ```sh
-  git push -u -f origin master
-  ```
+-   Push dit projekt til dit GitHub repo
+    ```sh
+    git push -u -f origin master
+    ```
 
 _"-u gør GitHub repo til dit default repo"
 <br>
@@ -115,7 +115,7 @@ _"-u gør GitHub repo til dit default repo"
 
 [Link til .gitignore](https://github.com/HostedShop/.github/blob/main/.gitignore)
 
-De to VIGTIGSTE ting i denne fil er at informationen til FTP connection og Node Modules bliver ignoreret.
+De VIGTIGSTE ting i denne fil er at informationen til FTP connection og Node Modules bliver ignoreret. Ligeledes under HostedShop sektionen bliver .css også ignoreret, da det er automatisk genereret i SCSS filerne.
 <br>
 <br>
 **_Som tidligere nævnt så anbefales det at .gitignore filen er tilføjet til projektet inden du laver repo opsætningen._**
@@ -132,25 +132,25 @@ Formålet med at lave git versioning på vores arbejde er for at gøre det nemme
 
 1. Vi kommer på job mandag morgen og kan ikke huske hvor vi er i arbejdsprocessen
 
-- Her vil git gøre det nemt at huske hvad du er i gang med, gennem dine egne commits.
+-   Her vil git gøre det nemt at huske hvad du er i gang med, gennem dine egne commits.
 
 <br>
 
 2. Vi skal lave en større ændring på eksempelvis en produkt-side som vil tage længere tid
 
-- Her vil git være din bedste ven, da du kan lave en branch _ie: ProductPageDesign_ & her har du nu lov til at tage chancer og her må du gerne fejle, da du har en backup i form af master branchen. Det vil øge effektiviteten da du ikke behøver at være så forsigtig når du sletter og tilføjer kode.
+-   Her vil git være din bedste ven, da du kan lave en branch _ie: ProductPageDesign_ & her har du nu lov til at tage chancer og her må du gerne fejle, da du har en backup i form af master branchen. Det vil øge effektiviteten da du ikke behøver at være så forsigtig når du sletter og tilføjer kode.
 
 <br>
 
 3. Vi skal lave mange ændringer på en webshop
 
-- Her er git god til at holde det samlede overblik, da du kan lave en branch for hvert område som du arbejde på og derved have dit eget interne projekt-flow, hvor du igennem dine commits kan holde dit eget overblik. Hvis du eksempelvis har 8 branches, og du ikke har arbejdet på en af disse branches i lang tid, kan du hurtigt kigge din commit history igennem og se hvad du har lavet af arbejde.
+-   Her er git god til at holde det samlede overblik, da du kan lave en branch for hvert område som du arbejde på og derved have dit eget interne projekt-flow, hvor du igennem dine commits kan holde dit eget overblik. Hvis du eksempelvis har 8 branches, og du ikke har arbejdet på en af disse branches i lang tid, kan du hurtigt kigge din commit history igennem og se hvad du har lavet af arbejde.
 
 <br>
 
 4. Du arbejder hjemmefra og vil gerne bruge din egen pc til arbejde.
 
-- Med git kan du clone dit igangværende projekt ned på din personlige pc og oprette en ny FTP fil i projektet. Du kan så arbejde i koden på din personlige pc og bruge din arbejdscomputer til at se ændringerne på den webshop du arbejder i, samt mails, teams & toggl.
+-   Med git kan du clone dit igangværende projekt ned på din personlige pc og oprette en ny FTP fil i projektet. Du kan så arbejde i koden på din personlige pc og bruge din arbejdscomputer til at se ændringerne på den webshop du arbejder i, samt mails, teams & toggl.
 
 <!-- KONTAKT -->
 
