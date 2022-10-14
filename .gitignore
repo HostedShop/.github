@@ -1,5 +1,5 @@
-# HostedShop gitignore #
-########################
+# OS generated files #
+######################
 .DS_Store?
 .DS_Store
 ehthumbs.db
@@ -17,14 +17,14 @@ dist
 .sass-cache
 *.map
 source/css/
-source/js/chicago/chicago.min.js
+source/js/*/*.min.js
 _vars.scss
 modules/framework/print/layout/print.css
 *.sh
 *.php
-assets/css/chicago.css
-assets/css/chicago.css.map
-assets/js/chicago.min.js
+assets/css/*.css
+assets/css/*.css.map
+assets/js/*.min.js
 # Yarn #
 ########
 yarn.lock
